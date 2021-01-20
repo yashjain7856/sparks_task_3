@@ -25,10 +25,17 @@
   <h3>THIS IS THE HOME PAGE.</h3>
   <p>This webpage is created by Yash Jain for the completion of the internship task provided by The Sparks Foundation.
     The main aim for the creation of this website is to link it with a payment gateway. I have used Razorpay for the payment integration. To check the payment gateway click on the "Donate Now" button below. You can also goto the Donate Us option in the navigation menu. You will recieve an email after successful payment. <br> Note: The payment is in test mode only. Real money or real account details are not involved at all.</p>
-  <form class="donatebutton">
-    <script src="https://checkout.razorpay.com/v1/payment-button.js"
-      data-payment_button_id="pl_GKqUn7PGueVNJ4"> </script>
-  </form>
+    <div class="donatebutton">
+      <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_GRcj5GwRU42tJz/view" data-text="Donate Now" data-color="rgb(0 37 95)" data-size="medium">
+        <script>
+          (function(){
+            var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+            if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+            s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+            rzp && rzp.init && rzp.init()}})();
+        </script>
+      </div> 
+    </div>
   <footer>All Rights Reserved.Copyright &copy; Yash Jain</footer>
 </body>
 
