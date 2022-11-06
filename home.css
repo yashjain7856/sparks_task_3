@@ -16,8 +16,8 @@ h1
 }
 body
 {
-    background-image: url("backdrop.jpg");
-    background-size: 1400px 700px;
+    background: rgb(30,185,255);
+    background: linear-gradient(126deg, rgba(30,185,255,1) 0%, rgba(255,190,93,1) 55%, rgba(125,66,213,1) 100%);
 }
 .navbar
 {
@@ -81,7 +81,7 @@ p,ol
     padding: 30px;
     font-weight: bold;
     font-size: 18px;
-    color:#ffffff;
+    color:#000000;
 }
 p:hover
 {
